@@ -1,0 +1,270 @@
+@import url(https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Philosopher', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    margin-right: 180px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.head-ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 41px;
+    margin-left: 35px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li:hover {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: rgba(220, 120, 11, 1);
+}
+
+.head-btn {
+    width: 155px;
+    height: 35px;
+    background-color: rgba(220, 120, 11, 1);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* end  */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.owner h1 {
+    width: 555px;
+    font-size: 48px;
+    margin-bottom: 42px;
+}
+
+.owner p {
+    width: 555px;
+    margin-bottom: 50px;
+}
+
+.heo1 {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(220, 120, 11, 1);
+}
+
+.heo2 {
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgba(220, 120, 11, 1);
+    padding: 20px;
+
+}
+
+/* end  */
+
+.sectiontwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+}
+
+.own {
+    margin-top: 90px;
+    display: flex;
+    gap: 90px;
+}
+
+.parts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sectiontwo h2 {
+    font-size: 32px;
+    margin-bottom: 7px;
+}
+
+.sectiontwo span {
+    font-family: roboto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(220, 120, 11, 1);
+}
+
+.imgBac {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+
+.one {
+    background-color: rgb(240, 245, 223);
+}
+
+.two {
+    background-color: rgb(248, 236, 233);
+}
+
+.thee {
+    background-color: rgb(245, 235, 226);
+}
+
+.parts p {
+    width: 300px;
+    color: rgba(21, 12, 1, 1);
+    opacity: 0.7;
+    font-family: roboto;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.parts h3 {
+    font-size: 25px;
+}
+
+/* end*/
+
+
+.sectionthree {
+    display: flex;
+    gap: 98px;
+    align-items: center;
+    justify-content: center;
+}
+
+.part2 {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.part2 span {
+    color: rgba(220, 120, 11, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: roboto;
+}
+
+.part2 h1 {
+    margin-top: 10px;
+    width: 487px;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.part2 p {
+    width: 487px;
+    color: rgba(21, 12, 1, 1);
+    opacity: 0.7;
+    margin-bottom: 29px;
+    line-height: 24px;
+}
+
+.part2 a {
+    width: 142px;
+    height: 42px;
+    color: white;
+    background-color: rgba(220, 120, 11, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.MENU h5 {
+    width: 55px;
+    height: 24px;
+    opacity: 70%;
+    font-size: 16px;
+    letter-spacing: 20%;
+    text-align: center;
+    color: #DC780B;
+    margin-left: 800px;
+    margin-top: 115px;
+}
+
+.MENU h3 {
+    width: 325px;
+    height: 24px;
+    margin-left: 730px;
+    padding-top: 9px;
+}
+.MENU p{
+    width: 748px;
+    height: 64px;
+    opacity: 70%;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #150C01;
+    margin-left: 420px;
+    padding-top: 24px;
+    margin-bottom:60px ;
+    
+}
+.card1 img{
+    margin-left: 150px;
+    padding-top: 21px;
+}.card1 h3{
+   margin-left: 150px;
+   padding-top: 20px;
+   display: flex;
+   
+}
+.card1 p{
+    margin-left: 150px;
+    padding-top: 20px;
+    width: 310px;
+    color: #150C01;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 70%;
+}
+.card1 button{
+    height: 34px;
+    width: 34px;
+    background-color: #DC780B;
+    border: none;
+    margin-left: 150px;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
